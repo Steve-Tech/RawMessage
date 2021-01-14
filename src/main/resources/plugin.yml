@@ -1,0 +1,17 @@
+name: RawMessage
+main: me.stevetech.rawmessage.RawMessage
+version: 1.0
+description: Send raw messages with color codes to players
+author: Steve-Tech
+api-version: 1.16
+commands:
+  rawmsg:
+    aliases: rawmessage
+    description: Send raw messages with color codes
+    usage: /<command> <player> <message>
+    permission: rawmessage
+    permission-message: You don't have permission to use this command!
+permissions:
+  rawmessage:
+    description: Send raw messages with color codes
+    default: op
